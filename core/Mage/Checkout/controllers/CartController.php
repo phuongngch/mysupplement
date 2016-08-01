@@ -305,7 +305,7 @@ class Mage_Checkout_CartController extends Mage_Core_Controller_Front_Action
      * Update product configuration for a cart item
      */
     public function updateItemOptionsAction()
-    {
+    { 
         $cart   = $this->_getCart();
         $id = (int) $this->getRequest()->getParam('id');
         $params = $this->getRequest()->getParams();

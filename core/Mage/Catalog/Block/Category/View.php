@@ -84,6 +84,10 @@ class Mage_Catalog_Block_Category_View extends Mage_Core_Block_Template
     {
         return $this->getChildHtml('product_list');
     }
+     public function getProductCatlistHtml()
+    {
+        return $this->getChildHtml('product_catlist');
+    }
 
     /**
      * Retrieve current category model object
